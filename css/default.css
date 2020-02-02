@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body{
+    font-family: 'CaveatBrush-Regular','BBTreeGR';
+}
+body,h1,h2,h3,h4,h5,h6,p,dd,dl{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+.inner{
+    width: 1200px;
+    margin:0 auto;
+}
+.cf:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.cf:before{
+    content: "";
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,193 @@
+@charset "utf-8";
+h1,h2,h3,p{margin: 0;padding: 0;}
+a{color:#333;text-decoration: none;}
+
+/*section0*/
+#section0{
+    position: relative;
+    background:#fff;
+}
+
+.bens{
+    position: absolute;
+    left: 0;
+    left: 150px;
+    top: 150px;
+    z-index: 1;
+}
+.cookies2{
+    position: absolute;
+    left: 50px;
+}
+.cookies{
+    position: absolute;
+    right: 0;
+    right: 80px;
+    bottom: 100px;
+}
+.boy{
+    position: absolute;
+    top: 200px; 
+    left:40%;
+}
+.cookies1{
+    position: absolute;
+    left: 200px;
+    bottom: 40px;
+}
+
+.cookies3{
+    position: absolute;
+    right: 120px;
+    width: 380px;
+}
+
+
+/*section1_info*/
+#section1{position: relative;}
+.info{text-align: center;padding-top: 30px;}
+.infoText{padding-top: 70px; text-align: center; font-size: 15px;line-height: 25px;}
+.infoText span{color:#ed3525;}
+.nav1{width: 100px; height: 100%; text-align: center; position: absolute;
+top: 50%; margin-top: -75px;}
+.nav li{padding-bottom: 30px;}
+
+/*section2_product*/
+#section2{padding-top:70px; height: auto; position: relative;}
+.section2Wrap{padding-left: 150px; padding-right: 50px;}
+.section2Wrap div{float: left; width: 50%;}
+.section2Right{}
+.section2Right img{width: 100%; display: block;height: -webkit-fill-available;}
+
+.section2Left{}
+.productList{}
+.productListSlider{width: 1200px;}
+.productListSlider img{width: 600px; display: block;}
+.slick-arrow{
+    background:none;
+    border:none;
+    font-size: 0;
+    width: 40px;
+    height: 10px;
+    z-index: 10;
+}
+.slick-prev{
+    background: url(../images/sub_2_product/leftArrow.png) no-repeat;
+    position: absolute;
+    bottom: -20px;
+    left: 250px;
+}
+.slick-next{
+    background: url(../images/sub_2_product/rightArrow.png) no-repeat;
+    position: absolute;
+    bottom: -20px;
+    left: 330px;
+}
+
+/*section3_onlineOrder*/
+#section3{position: relative;}
+.ncBtn{text-align: right;padding-right: 50px;}
+.section3notice p{text-align: center;}
+.ncBtn a{color:#ed3525; font-size: 15px;}
+.ncBtn a:hover{text-decoration: underline;}
+.onlinePd{padding-left: 120px; padding-right: 50px;}
+.onlineList{}
+.onlineList li{
+    float: left;
+    width: 20%;
+    padding-right: 65px;
+    text-align: center;
+    position: relative;
+}
+.onlineList img{width: 250px; text-align: center;}
+.onlineText h3{padding-top: 20px; color:#ed3525;}
+.onlineText p{
+    padding-top: 30px;
+    line-height: 25px;
+    padding-bottom: 35px;
+}
+.onlineText span{text-decoration: line-through; padding-right: 15px;}
+.onlineText h4{color:#ed3525;}
+.section3notice{text-align: center; padding-top: 10px; padding-bottom: 50px;}
+.section3notice span{color:#ed3525;padding-left: 5px; font-weight: bold;}
+.textImage{
+    position: absolute;
+    right: 25%;
+    bottom: 0;
+}
+.textImage img{width: 800px;}
+.onlineList img:hover{
+    background: rgba(32,89,116,1);
+    border-radius: 50%;
+}
+
+/*section4_store&footer*/
+#section4{position: relative;}
+.map{position: absolute;right:100px;padding-top: 100px;}
+.store{padding-left: 200px; width: 500px; text-align: left;padding-top: 100px;}
+.section4Tit{font-size: 18px;}
+.store img{padding-right: 10px; vertical-align: middle;}
+.notice{padding-left: 50px; text-align: left; padding-top: 20px;}
+.notice li{padding-bottom: 30px; border-bottom: 1px solid #ddd;}
+.noticeInfo{padding-left: 20px;}
+.noticeInfoTit{padding-bottom: 10px; color:#ed3525;padding-top: 5px;}
+.wrap_map{right: -100px;}
+.map21{display: none;}
+
+
+#footer{}
+.mainCon01{
+    background:#f5f5f5;
+    text-align: center;
+    padding: 50px 0;
+}
+.con01Wrap{
+    display: inline-block;
+    color:#333;
+}
+.con01Wrap div{
+    float: left;
+    text-align: left;
+    padding: 0 80px;
+}
+.con01Left{
+    width: 300px;
+}
+.con01Left h2{
+    color: #711B04;
+    margin-bottom: 30px;
+}
+.con01Left span{
+    display: block;
+}
+.con01Left{
+    font-size: 12px;
+}
+.con01Left span{font-weight: bold;}
+.con01Right{
+    font-size: 12px;
+    line-height: 25px; 
+}
+.con01Right p{}
+.con01Right div{
+    margin-top: 20px;
+    margin-left: 0;
+}
+.con01Right div a{
+    display: block;
+}
+.con01Left li{padding-bottom: 20px;}
+.con01Left .space{padding-bottom:3px;}
+.fInfo{font-weight: bold; font-size: 13px;padding-bottom: 20px; padding-top: 40px; }
+.fInfo li{float: left;}
+.fInfo li:hover{text-decoration: underline;}
+.fInfo li:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 8px;
+    background: #ccc;
+    margin: 0 5px;
+}
+.fInfo li:last-child:after{display: none;}
+.fInfoLast{padding-top: 10px; font-weight: bold;}
